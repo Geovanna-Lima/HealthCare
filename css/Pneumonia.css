@@ -1,0 +1,659 @@
+.mediaViewInfo {
+	--web-view-name: Pneumonia;
+	--web-view-id: Pneumonia;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Pneumonia;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Pneumonia_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1296px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Pneumonia;
+	--web-view-id: Pneumonia;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Retngulo_29_Class {
+	fill: rgba(111,186,184,1);
+}
+.Retngulo_29 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 996px;
+	left: 0px;
+	top: 82px;
+}
+.Doenas_Respiratrias_Class {
+	left: 721.5px;
+	top: 126.054px;
+	position: absolute;
+	overflow: visible;
+	width: 528px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.Retngulo_34_Class {
+	fill: rgba(255,255,255,0.639);
+}
+.Retngulo_34 {
+	position: absolute;
+	overflow: visible;
+	width: 779px;
+	height: 702px;
+	left: 1824px;
+	top: 283.5px;
+}
+.Retngulo_40_Class {
+	fill: rgba(255,255,255,1);
+}
+.Retngulo_40 {
+	position: absolute;
+	overflow: visible;
+	width: 1640px;
+	height: 836px;
+	left: 153px;
+	top: 230.5px;
+}
+.Caminho_4_Class {
+	fill: rgba(197,104,112,1);
+}
+.Caminho_4 {
+	filter: drop-shadow(0px 9px 5px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 115px;
+	height: 116.5px;
+	left: 1642px;
+	top: 606px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Bronquite.html;
+	cursor: pointer;
+}
+.Polgono_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Polgono_1 {
+	overflow: visible;
+	position: absolute;
+	width: 39px;
+	height: 34px;
+	transform: matrix(1,0,0,1,1680,642) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Retngulo_41_Class {
+	fill: rgba(255,255,255,0.639);
+}
+.Retngulo_41 {
+	position: absolute;
+	overflow: visible;
+	width: 779px;
+	height: 702px;
+	left: -689px;
+	top: 283.5px;
+}
+.Elipse_17_Class {
+	fill: rgba(197,104,112,1);
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Asma.html;
+	cursor: pointer;
+}
+.Elipse_17 {
+	filter: drop-shadow(0px 9px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	height: 116.5px;
+	left: 178px;
+	top: 606px;
+}
+.Polgono_6_Class {
+	fill: rgba(255,255,255,1);
+}
+.Polgono_6 {
+	overflow: visible;
+	position: absolute;
+	width: 39px;
+	height: 34px;
+	transform: matrix(1,0,0,1,203,639) rotate(-90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Home_Class {
+	left: 578px;
+	top: 1104.842px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Transtornos_Mentais_Class {
+	left: 577px;
+	top: 1150.326px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Depressao.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Doenas_Respiratrias_bo_Class {
+	left: 578px;
+	top: 1227.47px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Doenas_Infecciosas_Class {
+	left: 578px;
+	top: 1189.054px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Herpes.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Atendimento_Class {
+	left: 910px;
+	top: 1102.625px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.ID11_2222-2222_Class {
+	left: 911px;
+	top: 1189.344px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.healthcareatendimentocom_Class {
+	left: 910px;
+	top: 1150.24px;
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Social_Class {
+	left: 1284px;
+	top: 1102.625px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Facebook_Class {
+	left: 1314px;
+	top: 1226.502px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Instagram_Class {
+	left: 1312px;
+	top: 1137.24px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Twitter__Class {
+	left: 1312px;
+	top: 1178.948px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Sobre__Class {
+	left: 1601px;
+	top: 1102.639px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Nossa_Equipe_Class {
+	left: 1594px;
+	top: 1230.326px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Poltica_de_privacidade_Class {
+	left: 1594px;
+	top: 1185.054px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Termos_de_Uso_Class {
+	left: 1594px;
+	top: 1139.948px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Instagram_b_Class {
+	position: absolute;
+	width: 61.844px;
+	height: 41.202px;
+	left: 1266px;
+	top: 1127.087px;
+	overflow: visible;
+}
+.Twitter_Class {
+	position: absolute;
+	width: 36.512px;
+	height: 28.134px;
+	left: 1277px;
+	top: 1177.858px;
+	overflow: visible;
+}
+.facebook_Class {
+	position: absolute;
+	width: 47.603px;
+	height: 30.178px;
+	left: 1273px;
+	top: 1221.494px;
+	overflow: visible;
+}
+._2020_HealthCare_Todos_os_dire_Class {
+	left: 179px;
+	top: 1185.125px;
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+}
+.Imagem_2_Class {
+	position: absolute;
+	width: 47px;
+	height: 58px;
+	left: 173px;
+	top: 1130px;
+	overflow: visible;
+}
+.Linha_1_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Linha_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 1px;
+	left: 140px;
+	top: 1078.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Pneumonia_b_Class {
+	left: 234px;
+	top: 250px;
+	position: absolute;
+	overflow: visible;
+	width: 255px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(84,84,84,1);
+}
+.Grupo_de_rolagem_3_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1088px;
+	height: 631px;
+	left: 538px;
+	top: 363px;
+	overflow: visible;
+}
+.O_que___A_pneumonia__uma_infec_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1089px;
+	height: 1348px;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(84,84,84,1);
+}
+.Grupo_de_mscara_42_Class {
+	position: absolute;
+	width: 254px;
+	height: 238px;
+	left: 234px;
+	top: 342px;
+	overflow: visible;
+}
+.Retngulo_28_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_28 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 83px;
+	left: 0px;
+	top: -0.393px;
+}
+.Doenas_Infecciosas_cc_Class {
+	left: 966px;
+	top: 30.661px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Herpes.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Doenas_Respiratrias_cd_Class {
+	left: 670px;
+	top: 28.077px;
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Transtornos_Mentais_ce_Class {
+	left: 1242px;
+	top: 27.933px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Depressao.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Retngulo_27_Class {
+	fill: rgba(75,176,246,1);
+	stroke: rgba(75,176,246,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_27 {
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	height: 11px;
+	left: 727px;
+	top: 76.607px;
+}
+.Perfil_Class {
+	left: 1730px;
+	top: 25.661px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Imagem_1_Class {
+	position: absolute;
+	width: 254px;
+	height: 66px;
+	left: 140px;
+	top: 10.607px;
+	overflow: visible;
+}
+.Questionrio_Class {
+	left: 1523px;
+	top: 25.933px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Questionario_Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Home_cj_Class {
+	left: 528px;
+	top: 27.661px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}

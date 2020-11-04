@@ -1,0 +1,1045 @@
+.mediaViewInfo {
+	--web-view-name: Nossa Equipe;
+	--web-view-id: Nossa_Equipe;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Nossa_Equipe;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Nossa_Equipe_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1301px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Nossa Equipe;
+	--web-view-id: Nossa_Equipe;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Polgono_11_be_Class {
+	opacity: 0.42;
+	fill: url(#Polgono_11_be);
+}
+.Polgono_11_be {
+	overflow: visible;
+	position: absolute;
+	width: 954px;
+	height: 821px;
+	transform: matrix(1,0,0,1,1220.762,174.0522) rotate(18deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Home_Class {
+	left: 578px;
+	top: 1116.842px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Transtornos_Mentais_Class {
+	left: 577px;
+	top: 1162.326px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Depressao.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Doenas_Respiratrias_Class {
+	left: 578px;
+	top: 1239.47px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Rinite.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Doenas_Infecciosas_Class {
+	left: 578px;
+	top: 1201.054px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Herpes.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Atendimento_Class {
+	left: 910px;
+	top: 1114.625px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.ID11_2222-2222_Class {
+	left: 911px;
+	top: 1201.344px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.healthcareatendimentocom_Class {
+	left: 910px;
+	top: 1162.24px;
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Social_Class {
+	left: 1284px;
+	top: 1114.625px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Facebook_Class {
+	left: 1314px;
+	top: 1238.502px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Instagram_Class {
+	left: 1312px;
+	top: 1149.24px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Twitter__Class {
+	left: 1312px;
+	top: 1190.948px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Sobre__Class {
+	left: 1601px;
+	top: 1114.639px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+	text-transform: capitalize;
+}
+.Nossa_Equipe_br_Class {
+	left: 1594px;
+	top: 1242.326px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Poltica_de_privacidade_Class {
+	left: 1594px;
+	top: 1197.054px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Termos_de_Uso_Class {
+	left: 1594px;
+	top: 1151.948px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(20,18,18,1);
+}
+.Instagram_bu_Class {
+	position: absolute;
+	width: 61.844px;
+	height: 41.202px;
+	left: 1266px;
+	top: 1139.088px;
+	overflow: visible;
+}
+.Twitter_Class {
+	position: absolute;
+	width: 36.512px;
+	height: 28.134px;
+	left: 1277px;
+	top: 1189.857px;
+	overflow: visible;
+}
+.facebook_Class {
+	position: absolute;
+	width: 47.603px;
+	height: 30.178px;
+	left: 1273px;
+	top: 1233.494px;
+	overflow: visible;
+}
+._2020_HealthCare_Todos_os_dire_Class {
+	left: 179px;
+	top: 1197.125px;
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(20,18,18,1);
+}
+.Imagem_2_Class {
+	position: absolute;
+	width: 47px;
+	height: 58px;
+	left: 173px;
+	top: 1142px;
+	overflow: visible;
+}
+.Nossa_Equipe_bz_Class {
+	left: 140px;
+	top: 131.054px;
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(102,102,102,1);
+}
+.Retngulo_102_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_102 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 533px;
+	height: 364px;
+	left: 140px;
+	top: 248px;
+}
+.Retngulo_103_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_103 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 579px;
+	height: 348px;
+	left: 692px;
+	top: 617.5px;
+}
+.Retngulo_104_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_104 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	height: 311px;
+	left: 140px;
+	top: 670.946px;
+}
+.Retngulo_105_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_105 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 508px;
+	height: 311px;
+	left: 692px;
+	top: 235.946px;
+}
+.Caminho_40_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-dasharray: 5 10;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Caminho_40 {
+	overflow: visible;
+	position: absolute;
+	width: 596.7px;
+	height: 694.134px;
+	left: 1366px;
+	top: 235.458px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Elipse_251_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_251 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 1586px;
+	top: 192px;
+}
+.Grupo_de_mscara_51_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 1589px;
+	top: 195px;
+	overflow: visible;
+}
+.Elipse_252_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_252 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 1642px;
+	top: 858px;
+}
+.Elipse_253_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_253 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 1317px;
+	top: 372px;
+}
+.Elipse_254_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_254 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 1621px;
+	top: 525px;
+}
+.Grupo_de_mscara_52_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 1320px;
+	top: 375px;
+	overflow: visible;
+}
+.Grupo_de_mscara_53_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 1645px;
+	top: 861px;
+	overflow: visible;
+}
+.Grupo_de_mscara_54_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 1624px;
+	top: 528px;
+	overflow: visible;
+}
+.Elipse_255_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_255 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 175px;
+	top: 276px;
+}
+.Grupo_de_mscara_55_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 178px;
+	top: 279px;
+	overflow: visible;
+}
+.Elipse_257_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_257 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 146px;
+	height: 143px;
+	left: 720px;
+	top: 650.5px;
+}
+.Grupo_de_mscara_56_Class {
+	position: absolute;
+	width: 113px;
+	height: 109px;
+	left: 723px;
+	top: 653.5px;
+	overflow: visible;
+}
+.Elipse_259_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_259 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	height: 127px;
+	left: 711px;
+	top: 259px;
+}
+.Grupo_de_mscara_57_Class {
+	position: absolute;
+	width: 97px;
+	height: 94px;
+	left: 714px;
+	top: 262px;
+	overflow: visible;
+}
+.Elipse_261_Class {
+	fill: rgba(255,255,255,1);
+}
+.Elipse_261 {
+	filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	height: 127px;
+	left: 159px;
+	top: 697px;
+}
+.Grupo_de_mscara_58_Class {
+	position: absolute;
+	width: 97px;
+	height: 94px;
+	left: 162px;
+	top: 700px;
+	overflow: visible;
+}
+.Julia_Romualdo_Class {
+	left: 278px;
+	top: 692px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(102,102,102,1);
+}
+.Giulia_Anjos_Class {
+	left: 318px;
+	top: 323px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Geovanna_Lima_Class {
+	left: 855px;
+	top: 688.5px;
+	position: absolute;
+	overflow: visible;
+	width: 161px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Igor_Mozetic_Class {
+	left: 830px;
+	top: 301px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(102,102,102,1);
+}
+.Julia_Romualdo_cp_Class {
+	left: 278px;
+	top: 736px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Giulia_Anjos_cq_Class {
+	left: 318px;
+	top: 282px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(102,102,102,1);
+}
+.Igor_Mozetic_cr_Class {
+	left: 830px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(102,102,102,1);
+}
+.Geovanna_Lima_cs_Class {
+	left: 852px;
+	top: 650.5px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(102,102,102,1);
+}
+.Elipse_266_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(5,164,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_266 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 29px;
+	left: 1758px;
+	top: 795px;
+}
+.Elipse_270_Class {
+	fill: rgba(5,164,255,1);
+	stroke: rgba(5,164,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_270 {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 1767px;
+	top: 803.5px;
+}
+.Elipse_271_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(5,164,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_271 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 29px;
+	left: 1549px;
+	top: 274px;
+}
+.Elipse_272_Class {
+	fill: rgba(5,164,255,1);
+	stroke: rgba(5,164,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_272 {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 1558px;
+	top: 282.5px;
+}
+.Elipse_273_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,241,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_273 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 29px;
+	left: 1463px;
+	top: 461px;
+}
+.Caminho_41_Class {
+	fill: rgba(0,241,255,1);
+	stroke: rgba(0,241,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Caminho_41 {
+	overflow: visible;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 1472px;
+	top: 469.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Elipse_274_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,241,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_274 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 29px;
+	left: 1870px;
+	top: 401px;
+}
+.Caminho_42_Class {
+	fill: rgba(0,241,255,1);
+	stroke: rgba(0,241,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Caminho_42 {
+	overflow: visible;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 1879px;
+	top: 409.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Feito_com_muito_amor_Class {
+	left: 172px;
+	top: 839px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.E_pensar_que_tudo_isso_comeou__Class {
+	left: 728px;
+	top: 810px;
+	position: absolute;
+	overflow: visible;
+	width: 410px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Estou_muito_orgulhoso_do_nosso_Class {
+	left: 724px;
+	top: 409px;
+	position: absolute;
+	overflow: visible;
+	width: 380px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Estou_muito_feliz_com_o_result_Class {
+	left: 179px;
+	top: 426px;
+	position: absolute;
+	overflow: visible;
+	width: 389px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(102,102,102,1);
+}
+.Retngulo_28_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_28 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 83px;
+	left: 0px;
+	top: -0.393px;
+}
+.Doenas_Infecciosas_c_Class {
+	left: 970px;
+	top: 30.661px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Herpes.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Doenas_Respiratrias_c_Class {
+	left: 674px;
+	top: 28.077px;
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Rinite.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Transtornos_Mentais_c_Class {
+	left: 1246px;
+	top: 27.933px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Depressao.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Perfil_Class {
+	left: 1730px;
+	top: 25.661px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Imagem_1_Class {
+	position: absolute;
+	width: 254px;
+	height: 66px;
+	left: 144px;
+	top: 10.607px;
+	overflow: visible;
+}
+.Questionrio_Class {
+	left: 1523px;
+	top: 25.933px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Questionario_Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+.Home_dc_Class {
+	left: 532px;
+	top: 27.661px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Malgun Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
