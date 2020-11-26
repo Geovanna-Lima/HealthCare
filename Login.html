@@ -1,128 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/Login.css"/>
-<script id="applicationScript" type="text/javascript" src="js/Login.js"></script>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Open + Sans & display = swap" rel = "folha de estilo">
+	<script src="https://kit.fontawesome.com/3eecc79a6a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="Login" class="Login_Class">
-	<img class="Imagem_39_Class" src="img/Login/Imagem_39.png" srcset="img/Login/Imagem_39.png 1x, Imagem_39@2x.png 2x">
-	<div onclick="application.goToTargetView(event)" class="Home_Class">
-		<span>Home</span>
+
+	<div class = "container">
+		<div class="content first-content">
+			<div class = "first-column">
+				<h2 class="title title-primary">Seja bem-vindo novamente!</h2>
+				<p class="description description-primary">Já tem uma conta?</p>
+				<p class="description description-primary">Faça seu Login</p>
+				<button id="signin" class="btn btn-primary">Entre</button>
+			</div>
+
+			<div class = "second-column">
+				<h2 class="title title-second">Crie sua conta!</h2>
+				<div class = "social-media">
+					<ul class="list-social-media">
+						<a class="link-social-media" href="#">
+							<li class="item-social-media">
+								<i class="fab fa-facebook-f"></i>
+							</li>
+						</a>
+						<a class="link-social-media" href="#">
+							<li class="item-social-media">
+								<i class="fab fa-google-plus-g"></i>
+							</li>
+						</a>
+					</ul>
+				</div>
+
+				<p class="description description-second">ou use seu email para se registrar</p>
+				<form class="form">
+					<label class="label-input" for="">
+						<i class="far fa-user icon-modify"></i>
+						<input type = "text" placeholder="Nome Completo">
+					</label>
+						
+					<label class="label-input" for="">
+						<i class="fas fa-calendar-day icon-modify"></i>
+						<input type = "date" placeholder="Data de Nascimento">
+					</label>
+					
+					<label class="label-input" for="">
+						<i class="fas fa-map-marker-alt icon-modify"></i>
+						<input type = "text" placeholder="Estado - UF">
+					</label>
+					
+					<label class="label-input" for="">
+						<i class="fas fa-clipboard-list icon-modify"></i>
+						<input type = "text" placeholder="Função">
+					</label>
+					
+					<label class="label-input" for="">
+						<i class="far fa-envelope icon-modify"></i>
+						<input type = "email" placeholder="Email">
+					</label>
+					
+					<label class="label-input" for="">
+						<i class="fas fa-lock icon-modify"></i>
+						<input type = "password" placeholder="Senha">
+					</label>
+
+					<label class="label-input" for="">
+						<i class="fas fa-lock icon-modify"></i>
+						<input type = "text" placeholder="Confirmação de senha">
+					</label>
+					
+					<button class="btn btn-second">Cadastre-se</button>
+				</form>
+
+			</div>
+		</div>
+
+		<div class="content second-content">
+			<div class = "first-column">
+				<h2 class="title title-primary">Oi amigo!</h2>
+				<p class="descriptiopn description-primary">Insira seus dados aqui</p>
+				<p class="descriptiopn description-primary">e comece a explorar o HealthCare</p>
+				<button id="signup" class="btn btn-primary">Entre</button>
+			</div>
+
+			<div class = "second-column">
+				<h2 class="title title-second">Faça seu Login</h2>
+				<div class = "social-media">
+					<ul class="list-social-media">
+						<a class="link-social-media" href="#">
+							<li class="item-social-media">
+								<i class="fab fa-facebook-f"></i>
+							</li>
+						</a>
+						<a class="link-social-media" href="#">
+							<li class="item-social-media">
+								<i class="fab fa-google-plus-g"></i>
+							</li>
+						</a>
+					</ul>
+				</div>
+
+				<p class="description description-second">ou use seu email</p>
+				<form class="form">
+					
+					<label class="label-input" for="">
+						<i class="far fa-envelope icon-modify"></i>
+						<input type = "email" placeholder="Email">
+					</label>
+						
+					<label class="label-input" for="">
+						<i class="fas fa-lock icon-modify"></i>
+						<input type = "password" placeholder="Senha">
+					</label>
+
+					<a class="password" href="#">Esqueceu sua senha?</a>
+					<button class="btn btn-second">Entre</button>
+				</form>
+	
+			</div>
+		</div>
 	</div>
-	<div onclick="application.goToTargetView(event)" class="Transtornos_Mentais_Class">
-		<span>Transtornos Mentais</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Doenas_Respiratrias_Class">
-		<span>Doenças Respiratórias</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Doenas_Infecciosas_Class">
-		<span>Doenças Infecciosas</span>
-	</div>
-	<div class="Atendimento_Class">
-		<span>Atendimento</span>
-	</div>
-	<div class="ID11_2222-2222_Class">
-		<span>(11) 2222-2222</span>
-	</div>
-	<div class="healthcareatendimentocom_Class">
-		<span>health.care@atendimento.com</span>
-	</div>
-	<svg class="Retngulo_96">
-		<rect class="Retngulo_96_Class" rx="0" ry="0" x="0" y="0" width="1090" height="996">
-		</rect>
-	</svg>
-	<div class="Social_Class">
-		<span>Social</span>
-	</div>
-	<div class="Facebook_Class">
-		<span>Facebook</span>
-	</div>
-	<div class="Instagram_Class">
-		<span>Instagram</span>
-	</div>
-	<div class="Twitter__Class">
-		<span>Twitter</span><br>
-	</div>
-	<div class="Sobre__Class">
-		<span>Sobre</span><br>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Nossa_Equipe_Class">
-		<span>Nossa Equipe</span>
-	</div>
-	<div class="Poltica_de_privacidade_Class">
-		<span>Política de privacidade</span>
-	</div>
-	<div class="Termos_de_Uso_Class">
-		<span>Termos de Uso</span>
-	</div>
-	<img class="Instagram_bu_Class" src="img/Login/Instagram_bu.png" srcset="img/Login/Instagram_bu.png 1x, Instagram_bu@2x.png 2x">
-	<img class="Twitter_Class" src="img/Login/Twitter.png" srcset="img/Login/Twitter.png 1x, Twitter@2x.png 2x">
-	<img class="facebook_Class" src="img/Login/facebook.png" srcset="img/Login/facebook.png 1x, facebook@2x.png 2x">
-	<div class="_2020_HealthCare_Todos_os_dire_Class">
-		<span>© 2020 HealthCare<br/>Todos os direitos reservados<br/> </span>
-	</div>
-	<img class="Imagem_2_Class" src="img/Login/Imagem_2.png" srcset="img/Login/Imagem_2.png 1x, Imagem_2@2x.png 2x">
-	<div class="LOGIN_Class">
-		<span>LOGIN</span>
-	</div>
-	<div class="Senha_Class">
-		<span>Senha</span>
-	</div>
-	<svg class="Retngulo_93">
-		<rect class="Retngulo_93_Class" rx="30" ry="30" x="0" y="0" width="828" height="60">
-		</rect>
-	</svg>
-	<div class="Nome_de_Usurio_Class">
-		<span>Nome de Usuário</span>
-	</div>
-	<svg class="Retngulo_94">
-		<rect class="Retngulo_94_Class" rx="30" ry="30" x="0" y="0" width="828" height="60">
-		</rect>
-	</svg>
-	<div class="Componente_5___1 Componente_5__1_Class">
-		<svg class="Retngulo_95">
-			<rect class="Retngulo_95_Class" rx="33" ry="33" x="0" y="0" width="274" height="83">
-			</rect>
-		</svg>
-	</div>
-	<div class="ENTRAR_Class">
-		<span>ENTRAR</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="No_tem_conta_Faa_seu_cadastro_Class">
-		<span>Não tem conta? Faça seu cadastro</span>
-	</div>
-	<svg class="Retngulo_28">
-		<rect class="Retngulo_28_Class" rx="0" ry="0" x="0" y="0" width="1924" height="83">
-		</rect>
-	</svg>
-	<div onclick="application.goToTargetView(event)" class="Doenas_Infecciosas_b_Class">
-		<span>Doenças Infecciosas</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Doenas_Respiratrias_ca_Class">
-		<span>Doenças Respiratórias</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Transtornos_Mentais_cb_Class">
-		<span>Transtornos Mentais</span>
-	</div>
-	<svg class="Retngulo_27">
-		<rect class="Retngulo_27_Class" rx="5" ry="5" x="0" y="0" width="103" height="11">
-		</rect>
-	</svg>
-	<div class="Perfil_Class">
-		<span>Perfil</span>
-	</div>
-	<img class="Imagem_1_Class" src="img/Login/Imagem_1.png" srcset="img/Login/Imagem_1.png 1x, Imagem_1@2x.png 2x">
-	<div onclick="application.goToTargetView(event)" class="Questionrio_Class">
-		<span>Questionário</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="Home_cg_Class">
-		<span>Home</span>
-	</div>
-</div>
+	<script src="js/app.js"></script>
 </body>
 </html>
