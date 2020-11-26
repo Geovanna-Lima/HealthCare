@@ -203,13 +203,13 @@ input:-webkit-autofill{
     border-bottom-left-radius: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    animation: slidein 2s;
+    animation: slidein 3s;
 
     z-index: 12;
 }
 
 .sign-up-js .content::before{
-    animation: slideout 2s;
+    animation: slideout 3s;
 
     z-index: 12;
 }
@@ -226,25 +226,53 @@ input:-webkit-autofill{
     z-index: 13;
 }
 
+.sign-in-js .first-content .second-column{
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoEsq 3s;
+}
+
+.sign-up-js .second-content .second-column{
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoDir 2s;
+}
+
+
+/*Animação CSS conteudo*/
+@keyframes deslocamentoEsq {
+    from{
+        left: 0;
+        opacity: 1;
+        z-index: 12;
+    }
+
+    to{
+        left: -110px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes deslocamentoDir {
+    from{
+        left: 0px;
+        opacity: 1;
+        z-index: 12;
+    }
+    to{
+        left: 110px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
 /*Animação CSS*/
 
 @keyframes slidein {
     from {
       left: 0;
       width: 40%
-    }
-
-    25%{
-        left: 40%;
-        width: 40%
-    }
-
-    50%{
-        width: 40%
-    }
-
-    75%{
-        width: 40%
     }
     to {
         left: 60%;
@@ -254,24 +282,10 @@ input:-webkit-autofill{
 
 @keyframes slideout {
     from {
-      left: 60%;
-      width: 40%
-    }
-
-    25%{
-        left: 40%;
-        width: 40%
-    }
-
-    50%{
-        width: 40%
-    }
-
-    75%{
+        left: 60%;
         width: 40%
     }
     to {
         left: 0;
         width: 40%;
-      }
 }
