@@ -103,6 +103,7 @@
 	font-weight: normal;
 	font-size: 15px;
 	color: rgba(20,18,18,1);
+	
 }
 .Doenas_Infecciosas_Class {
 	left: 578px;
@@ -611,6 +612,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: rgba(112,112,112,1);
+	z-index: 15
 }
 .Doenas_Respiratrias_ch_Class {
 	left: 670px;
@@ -630,6 +632,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: rgba(112,112,112,1);
+	z-index: 15;
 }
 .Transtornos_Mentais_ci_Class {
 	left: 1242px;
@@ -649,6 +652,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: rgba(112,112,112,1);
+	z-index: 15
 }
 .Retngulo_27_Class {
 	fill: rgba(75,176,246,1);
@@ -666,6 +670,7 @@
 	height: 11px;
 	left: 1700px;
 	top: 77.607px;
+	z-index: 15
 }
 .Perfil_Class {
 	left: 1726px;
@@ -688,6 +693,7 @@
 	left: 140px;
 	top: 10.607px;
 	overflow: visible;
+	z-index: 15;
 }
 .Questionrio_Class {
 	left: 1519px;
@@ -726,4 +732,5 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: rgba(112,112,112,1);
+	z-index: 15;
 }
