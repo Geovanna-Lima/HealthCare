@@ -34,7 +34,9 @@ nav{
     position: absolute;
     background-color:#00bfff;
     width: 40%;
-    height: 120%;
+    height: 114%;
+    display: flex;
+    margin-top: -45px;
 
     left: 0;
 } 
@@ -91,6 +93,10 @@ nav{
     background-color:#00bfff;
     border: 1px solid #00bfff;
     transition: background-color .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
 }
 .btn-second:hover{
     background-color: white;
@@ -143,13 +149,19 @@ nav{
 .form{
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 60%;
 }
+.form label{
+    border-radius: 30px;
+}
+
 .form input{
     height: 45px;
-    width: 100%;
+    width: 90%;
+    margin-left: 1px;
     border: none;
     background-color: #ecf0f1;
+    border-radius: 30px;
 }
 input:-webkit-autofill{
     -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
@@ -163,7 +175,7 @@ input:-webkit-autofill{
 }
 .icon-modify{
     color: #7f8c8d;
-    padding: 0 5px;
+    padding: 0 25px;
 }
 
 /* second conted*/
