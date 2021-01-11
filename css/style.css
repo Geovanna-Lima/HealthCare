@@ -337,7 +337,7 @@ input:-webkit-autofill{
     display: none;
  }
  #slider label {
-    cursor:pointer;
+    cursor: pointer;
     text-decoration: none;
  }
  #slides {
@@ -368,7 +368,7 @@ input:-webkit-autofill{
  }
  #slides .inner {
     transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    width: 400%;
+    width: 500%;
     line-height: 0;
     height: 300px;
  }
@@ -379,13 +379,13 @@ input:-webkit-autofill{
     justify-content: center;
     align-items: center;
     height: 650px;
-    color: #fff;
+    color: gray;
  }
  #slides .slide_1 {
     background: #00171F;
  }
  #slides .slide_2 {
-    background: #003459;
+    background: white;
  }
  #slides .slide_3 {
     background: #007EA7;
@@ -397,11 +397,12 @@ input:-webkit-autofill{
     background: pink;
  }
  #controls {
-    margin: -180px 0 0 0;
+    margin: -355px 0 0 0;
     width: 100%;
     height: 50px;
     z-index: 3;
     position: relative;
+
  }
  #controls label {
     transition: opacity 0.2s ease-out;
@@ -434,7 +435,7 @@ input:-webkit-autofill{
     display: block;
  }
  #bullets {
-    margin: 150px 0 0;
+    margin: 325px 0 0;
     text-align: center;
  }
  #bullets label {
@@ -466,6 +467,14 @@ input:-webkit-autofill{
        margin: 0;
     }
 
+ }
+
+
+ /*Textos cada doença*/
+ .scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 380px;
  }
 
 
