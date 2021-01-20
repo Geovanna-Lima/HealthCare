@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Questionário</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Open + Sans & display = swap" rel = "folha de estilo">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/Cadastro.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3eecc79a6a.js" crossorigin="anonymous"></script>
+	<script id="applicationScript" type="text/javascript" src="js/Login.js"></script>
+</head>
+<body>
+	<nav>
+		<div onclick="application.goToTargetView(event)" class="Doenas_Infecciosas_cg_Class">
+			<span>Doenças Infecciosas</span>
+		</div>
+		<div onclick="application.goToTargetView(event)" class="Doenas_Respiratrias_ch_Class">
+			<span>Doenças Respiratórias</span>
+		</div>
+		<div onclick="application.goToTargetView(event)" class="Transtornos_Mentais_ci_Class">
+			<span>Transtornos Mentais</span>
+		</div>
+			<svg class="Retngulo_27">
+				<rect class="Retngulo_27_Class" rx="5" ry="5" x="1" y="0" width="103" height="11"></rect>
+			</svg>
+		<div class="Perfil_Class">
+			<span>Perfil</span>
+		</div>
+		<img class="Imagem_1_Class" src="img/Cadastro/Imagem_1.png" srcset="img/Cadastro/Imagem_1.png 1x, Imagem_1@2x.png 2x">
+		<div onclick="application.goToTargetView(event)" class="Questionrio_Class">
+			<span>Questionário</span>
+		</div>
+		<div onclick="application.goToTargetView(event)" class="Home_cn_Class">
+			<span>Home</span>
+		</div>
+    </nav>
+    <div class = "container4">
+        <br></br>
+        <div class="home-box custom-box hide">
+            <h2>Instrução</h2>
+            <p>Total de questões:<span class="total-questions"> 6</span></p>
+            <button type="button" class="btn btn-third">Começar</button>
+        </div>
+        <div class="quiz-box custom-box"> 
+            <div class="question-number">
+                Questão 1 de 6
+            </div>
+            <div class="question-text">
+                1) Sobre a rinite, estudamos que ela contém alguns tipos distinguidos por alguma ou algumas características. Tendo esse conceito já em mente, escolha a alternativa certa.
+            </div>
+            <div class="option-container">
+                <div class="option">Existe apenas um tipo de rinite com sintomas padronizados.</div>
+                <div class="option">A rinite bacteriana, que é causada por uma bactéria e além de ter todos os sintomas da rinite alérgica, ela também apresenta dor na garganta e chiados no peito.</div>
+                <div class="option">A rinite é uma doença localizada na região das narinas e tem sintomas como coriza, espirros, coceira e alteração no olfato.</div>
+                <div class="option">Existem 10 tipos diferentes de rinite que estão diretamente relacionadas com a inalação de partículas consideradas estranhas.</div>
+                <div class="option">A rinite por fungos, que além de ser uma das mais fortes e complexas é causada após a ingestão de alimentos com emboloramento ou fungos presentes.</div>
+            </div>
+            <div class="next-question-btn">
+                <button type="button" class="btn btn-third">Próxima</button>
+            </div>
+            <div class="answers-indicator">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div> 
+
+        <div class="result-box custom-box hide">
+            <h1>Resultado</h1>
+            <table>
+                <tr>
+                    <td>Quantidade de questões</td>
+                    <td><span class="total-question">6</span></td>
+                </tr>
+                <tr>
+                    <td>Corretas</td>
+                    <td><span class="total-correct">3</span></td>
+                </tr>
+                <tr>
+                    <td>Erradas</td>
+                    <td><span class="total-wrong">3</span></td>
+                </tr>
+                <tr>
+                    <td>Porcentagem</td>
+                    <td><span class="percentage">50%</span></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td><span class="total-score">3/6</span></td>
+                </tr>
+            </table>
+            <button type="button" class="btn btn-third">Tente novamente</button>
+            <button type="button" class="btn btn-third">Próximo questionário</button>
+        </div>
+    </div>     
+    <script src="js/app.js"></script>
+    <script> src="node_modules/jquery/dist/jquery.js"</script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
+            
