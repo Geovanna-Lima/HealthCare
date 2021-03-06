@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+//*Questionário Respiratorias - Array*//
+=======
 //*Questionário - Array*//
+>>>>>>> 361f7891d183f56db4632552da2e4497307dee71
 
 const quiz = [
     {
