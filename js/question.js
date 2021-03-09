@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-//*Questionário Respiratorias - Array*//
-=======
-//*Questionário - Array*//
->>>>>>> 361f7891d183f56db4632552da2e4497307dee71
-
 const quiz = [
     {
         q: 'Sobre a rinite, estudamos que ela contém alguns tipos distinguidos por alguma ou algumas características. Tendo esse conceito já em mente, escolha a alternativa certa.',

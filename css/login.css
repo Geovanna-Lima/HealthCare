@@ -134,6 +134,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 60%;
+    margin-top: 20px;
 }
 .form label{
     border-radius: 30px;

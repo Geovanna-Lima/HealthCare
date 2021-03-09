@@ -50,22 +50,8 @@
 
 			<div class="second-column">
 				<h2 class="title title-second">Crie sua conta!</h2>
-				<div class="social-media">
-					<ul class="list-social-media">
-						<a class="link-social-media" href="#">
-							<li class="item-social-media">
-								<i class="fab fa-facebook-f"></i>
-							</li>
-						</a>
-						<a class="link-social-media" href="#">
-							<li class="item-social-media">
-								<i class="fab fa-google-plus-g"></i>
-							</li>
-						</a>
-					</ul>
-				</div>
-
-				<p class="description description-second">ou use seu email para se registrar</p>
+				
+				<p class="description description-second">Insira seus dados para se registrar</p>
 				<form action="../../php/cadastro.php" method="POST" class="form">
 					<label class="label-input" for="">
 						<i class="far fa-user icon-modify"></i>
@@ -94,7 +80,7 @@
 
 					<label class="label-input" for="">
 						<i class="fas fa-lock icon-modify"></i>
-						<input type="text" placeholder="Confirmação de senha">
+						<input type="password" placeholder="Confirmação de senha">
 					</label>
 
 					<button id="cadastro" class="btn btn-second">CADASTRAR</button>
@@ -113,24 +99,8 @@
 
 			<div class="second-column">
 				<h2 class="title title-second">Faça seu Login</h2>
-				<div class="social-media">
-					<ul class="list-social-media">
-						<a class="link-social-media" href="#">
-							<li class="item-social-media">
-								<i class="fab fa-facebook-f"></i>
-							</li>
-						</a>
-						<a class="link-social-media" href="#">
-							<li class="item-social-media">
-								<i class="fab fa-google-plus-g"></i>
-							</li>
-						</a>
-					</ul>
-				</div>
-				
-				<p class="description description-second">ou use seu email</p>
-
-				<form class="form" action="../../php/validacaoLogin.php" method="POST">
+				<p class="description description-second">Insira seus dados para fazer o login</p>
+				<form  class="form" action="../../php/validacaoLogin.php" method="POST">
 
 					<label class="label-input" for="">
 						<i class="far fa-envelope icon-modify"></i>
@@ -143,11 +113,8 @@
 						<label for="password"></label>
 						<input type="password" name="senha" id="senha" required="required" placeholder="Insira sua senha" />
 					</label>
-					<div id="check">
-						<input type="checkbox" id="lembrarUsuario" name="lembrarUsuario">
-						<label for="lembrarUsuario">Lembrar identificação de usuário</label>
-					</div>
-					<a class="password" href="#">Esqueceu sua senha?</a>
+					
+					
 
 					<button id="login" class="btn btn-second">Entrar</button>
 				</form>

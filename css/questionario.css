@@ -443,3 +443,11 @@
     justify-content:space-evenly;
     margin-top: 145px;
  }
+
+.whole-question {
+    display: none;
+}
+
+.active {
+    display: block;
+}

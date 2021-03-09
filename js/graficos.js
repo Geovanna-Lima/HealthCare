@@ -1,7 +1,6 @@
 /*Grafico de progresso*/
 
 var ctx = document.getElementsByClassName("doencas-respiratorias");
-
 //Type, Data e options
 var chartGraph = new Chart(ctx, {
     type: 'doughnut',

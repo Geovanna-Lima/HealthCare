@@ -1,122 +1,107 @@
 <?php 
     session_start();
     if(!isset($_SESSION['logado'])){
-         echo"<script language='javascript' type='text/javascript'>
-                alert('Acesso negado. Realize o login');
-                window.location.href='../DadosSite/Login.html';</script>";
+        echo "<script language='javascript' type='text/javascript'>
+            alert('É necessário realizar Login!');
+            window.location.href='../../DadosSite/Login.html';
+            </script>";
     }
-?>
 
+    $arr = [];
+    $i=0;
+    for (; $i < 6 ; ) { 
+        $random = rand(25,34);
+        if(!in_array($random, $arr)){
+            array_push($arr, $random);
+            $i++;
+        }
+    }
+    if($i==6){
+        setcookie("question1",$arr[0],time()+3600*2);
+        setcookie("question2",$arr[1],time()+3600*2);
+        setcookie("question3",$arr[2],time()+3600*2);
+        setcookie("question4",$arr[3],time()+3600*2);
+        setcookie("question5",$arr[4],time()+3600*2);
+        setcookie("question6",$arr[5],time()+3600*2);
+    }
+    
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../../../img/favicon.ico" type="image/x-icon">
     <title>HealthCare</title>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/questionario.css">
-    <link rel="stylesheet" href="../../css/rodape.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrap.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/questionario.css">
+    <link rel="stylesheet" href="../../../css/rodape.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../../css/Cadastro.css"/>
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../../../css/Cadastro.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+   
 </head>
 <body>
-	<nav>
+    <nav>
 		<div onclick="application.goToTargetView(event)" class="Doenas_Infecciosas_cg_Class">
-			<span><a href="../Doencas/DoencasInfecciosas/Slider.html">Doenças Infecciosas</a></span>
+			<span><a href="../../Doencas/DoencasInfecciosas/Slider.html">Doenças Infecciosas</a></span>
 		</div>
 		<div onclick="application.goToTargetView(event)" class="Doenas_Respiratrias_ch_Class">
-			<span><a href="../Doencas/DoencasRespiratorias/Slider3.html">Doenças Respiratórias</a></span>
+			<span><a href="../../Doencas/DoencasRespiratorias/Slider3.html">Doenças Respiratórias</a></span>
 		</div>
 		<div onclick="application.goToTargetView(event)" class="Transtornos_Mentais_ci_Class">
-			<span><a href="../Doencas/TranstornosMentais/Slider2.html">Transtornos Mentais</a></span>
+			<span><a href="../../Doencas/TranstornosMentais/Slider2.html">Transtornos Mentais</a></span>
 		</div>
 			<svg class="Retngulo_27">
 				<rect class="Retngulo_27_Class" rx="5" ry="5" x="-165" y="0" width="103" height="11"></rect>
 			</svg>
 		<div class="Perfil_Class">
-			<span><a href="../DadosSite/Perfil.php">Perfil</a></span>
+			<span><a href="../../DadosSite/Perfil.php">Perfil</a></span>
 		</div>
-		<img class="Imagem_1_Class" src="../../img/Imagem_1.png">
+		<img class="Imagem_1_Class" src="../../../img/Imagem_1.png">
 		<div onclick="application.goToTargetView(event)" class="Questionrio_Class">
-			<span><a href="../DadosSite/EscolhaQuestionario.php">Questionário</a></span>
+			<span><a href="../../DadosSite/EscolhaQuestionario.php">Questionário</a></span>
 		</div>
 		<div onclick="application.goToTargetView(event)" class="Home_cn_Class">
-			<span><a href="../../index.html">Home</a></span>
+			<span><a href="../../../index.html">Home</a></span>
 		</div>
     </nav>
     <div class = "container4">
-    	<h1>Questionário</h1>
-		<div class="card-content">
-			<div class="card-doenca">
-				<div>
-					<img src="../../img/resp.png"  class="card-image">
-				</div>
-				<div class="card-text">
-					<h3>Questionário</h3>
-					<h2>Doenças Respiratórias</h2>
-					<p>Esse questionário contém 6 perguntas sobre "Doenças Respiratórias".</p>       
-				</div>
-				<div class="card-stats">
-				<div class="stat">
-					<div class="type">
-						<a href="../Questionario/QuestoesRespiratorias/init.php">RESPONDER</a>
-					</div>
-				</div>
-				</div>
-			</div>
-			<div class="card-doenca">
-				<div>
-					<img src="../../img/vir.png"  class="card-image">
-				</div>
-				<div class="card-text">
-					<h3>Questionário</h3>
-					<h2>Doenças Infecciosas</h2>
-					<p>Esse questionário contém 6 perguntas sobre "Doenças Infecciosas".</p>       
-				</div>
-				<div class="card-stats">
-				<div class="stat">
-					<div class="type">
-						<a href="../Questionario/QuestoesInfecciosas/init.php">RESPONDER</a>
-					</div>
-				</div>
-				</div>
-			</div>
-			<div class="card-doenca">
-				<div>
-					<img src="../../img/trans.png"  class="card-image">
-				</div>
-				<div class="card-text">
-					<h3>Questionário</h3>
-					<h2>Transtornos Mentais</h2>
-					<p>Esse questionário contém 6 perguntas sobre "Transtornos Mentais".</p>     
-				</div>
-				<div class="card-stats">
-				<div class="stat">
-					<div class="type">
-						<a href="../Questionario/QuestoesTranstornos/init.php">RESPONDER</a>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-    </div> 
-	</br> 
-	<section class="footer">
+        <h1>Questionário</h1>
+            <div class="home-box custom-box">
+                <h2>Leia atentamente as seguintes instruções:</h2>
+                <p>- Utilizar de seu conhecimento após ter lido as informações concedidas pelo site para responder o questionário;</p>
+                <p>- O questionário contém 6 perguntas relacionadas ao tema escolhido;</p>
+                <p>- NÃO CLIQUE em nenhuma alternativa senão estiver absolutamente decidido de sua escolha, pois ao clicar, o sistema irá acatar como sendo sua resposta final;</p>
+                <p>- A resposta da questão aparecerá logo após a escolha da alternativa informando a cor verde para a alternativa correta e vermelha para a alternativa errada;</p>
+                <p>- Ao responder a questão, você não poderá voltar e alterar sua resposta;</p>
+                <p>- O questionário não contém tempo para ser resolvido;</p>
+                <p>- Cada questão irá apresentar 5 alternativas. Apenas uma alternativa estará correta;</p>
+                <p>- Ao final das 6 questões um gabarito final é exibido.</p>
+                </br>
+                <div class="btnComecar">
+                    <h3>Total de questões: 6</span></h3>
+                    
+                    <a href="./question1.php" type="button" class="btn btn-third" >Começar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </br>
+        <section class="footer">
 		<div class="container5">
 			<ul>
-				<li class="grid-9"><img src="../../img/logo.png" class="imgLogo">
+				<li class="grid-9"><img src="../../../img/logo.png" class="imgLogo">
 					<h6>©2021 HealthCare </h6>
 					<h6>Todos os direitos reservados</h6>
 				</li>
 				<li class="grid-5"><h2>Home</h2>
-					<p><a href="../Doencas/DoencasRespiratorias/Slider3.html">Doenças Respiratórias</a></p>
-					<p><a href="../Doencas/DoencasInfecciosas/Slider.html">Doenças Infecciosas</a></p>
-					<p><a href="../Doencas/TranstornosMentais/Slider2.html">Transtornos Mentais</a></p>
+					<p><a href="../../Doencas/DoencasRespiratorias/Slider3.html">Doenças Respiratórias</a></p>
+					<p><a href="../../Doencas/DoencasInfecciosas/Slider.html">Doenças Infecciosas</a></p>
+					<p><a href="../../Doencas/TranstornosMentais/Slider2.html">Transtornos Mentais</a></p>
 				</li>
 				<li class="grid-5"><h2>Contato</h2>
 					<p>healthcareequipe@gmail.com</p>
@@ -280,10 +265,10 @@
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button> 
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button> 
                                 </div>
                             </div>
-                        </div>
+                       </div>
                    </div>
                    <p><a href="../DadosSite/NossaEquipe.html">Nossa Equipe</a></p>  
 				</li>
@@ -291,9 +276,9 @@
 		</div>
 	</section>
     <script src="https://kit.fontawesome.com/3eecc79a6a.js" crossorigin="anonymous"></script>
-    <script src="../../js/questionTranstornos.js"></script>
-    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../../js/app.js"></script>
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

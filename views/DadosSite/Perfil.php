@@ -6,6 +6,30 @@
               window.location.href='../DadosSite/Login.html';
              </script>";
     }
+    require('../../php/connection.php');
+
+    $id = $_SESSION['logado'];
+    $correctResp = 0;
+    $wrongResp = 0;
+    $correctInf = 0;
+    $wrongInf = 0;
+    $correctMental = 0;
+    $wrongMental = 0;
+    $sql = "SELECT MAX(data_questionario),qtd_certa,qtd_errada FROM responder WHERE id_usuario = '$id' AND id_questionario = 1";
+    foreach($bd->query($sql) as $row){
+        $correctResp = $row['qtd_certa'];
+        $wrongResp = $row['qtd_errada'];
+    }
+    $sql = "SELECT MAX(data_questionario),qtd_certa,qtd_errada FROM responder WHERE id_usuario = '$id' AND id_questionario = 2";
+    foreach($bd->query($sql) as $row){
+        $correctInf = $row['qtd_certa'];
+        $wrongInf = $row['qtd_errada'];
+    }
+    $sql = "SELECT MAX(data_questionario),qtd_certa,qtd_errada FROM responder WHERE id_usuario = '$id' AND id_questionario = 3";
+    foreach($bd->query($sql) as $row){
+        $correctMental = $row['qtd_certa'];
+        $wrongMental = $row['qtd_errada'];
+    }
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +47,16 @@
     <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../../css/Cadastro.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="../../js/perfil.js"></script>
+    <script src="https://kit.fontawesome.com/3eecc79a6a.js" crossorigin="anonymous"></script>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    
+
+    
 </head>
 <body>
 	<nav>
@@ -51,7 +85,7 @@
     </nav>
 
     <?php 
-        require('../../php/connection.php');
+        
         
         $id_usuario = $_SESSION['logado'];
 
@@ -107,14 +141,105 @@
                             <p>Aqui está o seu progresso em cada questionário respondido.</p>
                             <div class="profile-grafico">
                                 <div class="canvas-holder">
-                                    <canvas class="doencas-respiratorias"></canvas>
+                                    <canvas id="respiratorias" class="doencas-respiratorias"></canvas>
                                 </div>
                                 <div class="canvas-holder">
-                                    <canvas class="doencas-infecciosas"></canvas>
+                                    <canvas id="infecciosas" class="doencas-infecciosas"></canvas>
                                 </div>
                                 <div class="canvas-holder">
-                                    <canvas class="doencas-transtornos"></canvas>
+                                    <canvas id="mentais" class="doencas-transtornos"></canvas>
                                 </div>
+
+                                <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                                <script>
+                                    var ctx = document.getElementById('respiratorias').getContext('2d');
+                                    var mixedChart = new Chart(ctx, {
+                                        type: 'doughnut',
+                                        data: {
+                                            labels: ['Certas', 'Erradas'],
+                                            datasets: [{
+                                                label: 'Progresso Doenças Respiratórias',
+                                                data: [<?php echo $correctResp.",".$wrongResp ?>],
+                                                backgroundColor: [
+                                                    'rgba(113, 153, 188, 1)',
+                                                    'rgba(151, 180, 206, 0.2)',
+                                                ],
+                                                borderColor: [
+                                                    'rgba(54, 162, 235, 1)',
+                                                    'rgba(54, 162, 235, 1)',
+                                                ],
+                                                borderWidth: 1
+                                            }],
+                                        },
+                                        options: {
+                                            title:{
+                                                text: "Progresso Questionário Doenças Respiratórias",
+                                                fontSize: 15,
+                                                fontFamily: "'Montserrat', sans-serif",
+                                                display:true
+                                            }
+                                        }
+                                    });
+
+                                    var ctx = document.getElementById('infecciosas').getContext('2d');
+                                    var chartGraph = new Chart(ctx, { 
+                                        type: 'doughnut',
+                                        data: {
+                                            labels: ['Certas', 'Erradas'],
+                                            datasets: [{
+                                                label: 'Progresso Doenças Infecciosas',
+                                                data: [<?php echo $correctInf.",".$wrongInf ?>],
+                                                backgroundColor: [
+                                                    'rgba(111, 185, 184, 1)',
+                                                    'rgba(157, 207, 206, 0.2)',
+                                                ],
+                                                borderColor: [
+                                                    'rgba(56, 177, 175, 1)',
+                                                    'rgba(56, 177, 175, 1)',
+                                                ],
+                                                borderWidth: 1
+                                            }],
+                                        },
+                                        options: {
+                                            title:{
+                                                text: "Progresso Questionário Doenças Infecciosas",
+                                                fontFamily: "'Montserrat', sans-serif",
+                                                fontSize: 15,
+                                                display:true
+                                            }
+                                        }
+                                    });
+                                    
+                                    var ctx = document.getElementById('mentais').getContext('2d');
+                                    var chartGraph = new Chart(ctx, {
+                                        type: 'doughnut',
+                                        data: {
+                                            labels: ['Certas', 'Erradas'],
+                                            datasets: [{
+                                                label: 'Progresso Transtornos Mentais',
+                                                data: [<?php echo $correctMental.",".$wrongMental ?>],
+                                                backgroundColor: [
+                                                    'rgba(214, 150, 185, 1)',
+                                                    'rgba(219, 179, 201, 0.2)',
+                                                ],
+                                                borderColor: [
+                                                    'rgba(224, 116, 176, 1)',
+                                                    'rgba(224, 116, 176, 1)',
+                                                ],
+                                                borderWidth: 1
+                                            }],
+                                        },
+                                        options: {
+                                            title:{
+                                                text: "Progresso Questionário Transtornos mentais",
+                                                fontFamily: "'Montserrat', sans-serif",
+                                                fontSize: 15,
+                                                display:true
+                                            }
+                                        },
+                                    
+                                    });
+                                </script>
                             </div>
                         </div>
                     </div>
@@ -359,14 +484,8 @@
             </ul>
 		</div>
 	</section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
-    <script src="../../js/graficos.js"></script>
-    <script src="../../js/perfil.js"></script>
-    <script src="https://kit.fontawesome.com/3eecc79a6a.js" crossorigin="anonymous"></script>
-    <script src="../../node_modules/jquery/dist/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    
+    
 
 </body>
 </html>
